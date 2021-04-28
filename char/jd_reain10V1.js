@@ -2,7 +2,7 @@
 只能用一小时。需每小时寻找直播抓包
 0 0-23 28 4 * 10_redrain.jss
 */
-const $ = new Env('10V');
+const $ = new Env('10V2');
 let allMessage = '';
 let bodyList = {
   '20': {
@@ -12,30 +12,32 @@ let bodyList = {
 }
 let ids = {
     
-             '0': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '1': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '2': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '3': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '4': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '5': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '6': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '7': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '8': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '9': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '10': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '11': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '12': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '13': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '14': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '15': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '16': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '17': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '18': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '19': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '20': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '21': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '22': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS',	
-    '23': 'RRA2wKRg7gL9Ns1zqtun1JwkBTZ2yVS'	       
+                 '0': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '1': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '2': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '3': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '4': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '5': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '6': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '7': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '8': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '9': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '10': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '11': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '12': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '13': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '14': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '15': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '16': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '17': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '18': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '19': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '20': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '21': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '22': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD',	
+    '23': 'RRA4Kr8hch51J49qasBvEv8Agf8chAD'	
+	
+		       
 				
 }
 const notify = $.isNode() ? require('./sendNotify') : '';
