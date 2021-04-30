@@ -2,7 +2,7 @@
 只能用一小时。需每小时寻找直播抓包
 0 0-23 28 4 * 10_redrain.jss
 */
-const $ = new Env('10V3');
+const $ = new Env('10V10');
 let allMessage = '';
 let bodyList = {
   '20': {
@@ -12,7 +12,7 @@ let bodyList = {
 }
 let ids = {
     
-                   '0': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',
+   '0': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',
     '1': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',
     '2': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',
     '3': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',
