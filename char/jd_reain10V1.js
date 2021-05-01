@@ -2,7 +2,7 @@
 只能用一小时。需每小时寻找直播抓包
 0 0-23 28 4 * 10_redrain.jss
 */
-const $ = new Env('10V');
+const $ = new Env('10V1');
 let allMessage = '';
 let bodyList = {
   '20': {
@@ -11,7 +11,31 @@ let bodyList = {
   }
 }
 let ids = {
-    
+    '0': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '1': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '2': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '3': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '4': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '5': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '6': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '7': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '8': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '9': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '10': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '11': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '12': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '13': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '14': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '15': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '16': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '17': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '18': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '19': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '20': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '21': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '22': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC',	
+    '23': 'RRA3zxrJChU14WAc5ZCD4GQMSxDYLRC'	
+	
    
 				
 }
